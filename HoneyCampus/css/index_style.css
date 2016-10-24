@@ -1,0 +1,97 @@
+.row{
+	margin:0px;
+}
+#Mycarousel{
+	padding:0px;
+}
+.mainSection{
+	position:relative;
+}
+.btnGroup{
+	position:absolute;
+	top:0;left:0;
+	
+}
+.btnGroup .btn,footer .btn{
+	background-color:transparent;
+	border:none;
+}
+.btnGroup .btn a{
+	display:block;
+}
+.centerBtn{
+	display:block;
+	position:absolute;
+	top:50%;left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+}
+footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+}
+footer .container{
+	margin-bottom: 0;
+}
+.footBtnGroup button{
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.navbar{
+	min-height: 0;
+}
+.container{
+	width:100%;
+}
+.btnGroup{
+	background-color: transparent;
+}
+
+/*signup_info.jsp*/
+.contentTop{
+	margin-top:25px;
+}
+.btn{
+	padding-top:9px;
+}
+.bgPosition{
+	background-image:url("../img/beijing.png");
+	background-position:0 40px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+form{
+	margin-top:140px;
+}
+.form-control{
+	border-color:#a7a7a7;
+	border-radius:10px;
+	border-left:0;
+}
+.input-group-addon{
+	border-radius:10px;
+	border-color:#a7a7a7;
+	border-right:0;
+	background-color:#fff;	
+	
+}
+.input-group{
+	padding-right:30px;
+	padding-left:30px;
+}
+.submit{
+	padding-left:60px;
+	padding-right:60px;
+}
+.btn-info{
+	background-color:#40bed8;
+	border-radius:10px;
+}
+.form-group{
+	margin-bottom:25px;
+}
